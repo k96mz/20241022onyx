@@ -1,0 +1,25 @@
+{
+  "version": 8,
+  "name": "Simple Style",
+  "metadata": { "maputnik:renderer": "mlgljs" },
+  "sources": {
+    "v": {
+      "type": "vector",
+      "tiles": ["http://k96mz.net:3000/zxy/tapioca/{z}/{x}/{y}.pbf"]
+    }
+  },
+  "layers": [
+    {
+      "id": "bndl",
+      "type": "line",
+      "source": "v",
+      "source-layer": "bndl",
+      "minzoom": 0,
+      "maxzoom": 15,
+      "paint": {
+        "line-color": "rgba(62, 70, 250, 1)"
+      }
+    }
+  ],
+  "id": "wxp72pb"
+}
